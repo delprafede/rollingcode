@@ -72,7 +72,9 @@ a:hover {
     color: #ffd700;
 }
 /* ********MI ESTILOS***** */
-
+.container-nav {
+    height: 20vh;
+}
 .img-shifu {
     width: 4rem;
     height: 4rem;
@@ -98,19 +100,21 @@ form button {
 }
 .footer-link {
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-out;
 }
 
 footer p {
-    font-size: 17px;
+    font-size: 1.3rem;
 }
 
 footer a:hover {
     color: #0d6efd !important;
+    text-decoration: underline;
 }
 
 footer i {
-    font-size: 25px;
+    font-size: 1.75rem ;
 }
 
 
@@ -138,7 +142,9 @@ footer i {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    
+    .container-nav {
+        height: 15vh;
+    }
     .icon_nav {
         display: inline-flex;
     }

@@ -1,10 +1,23 @@
+:root {
+    --color-primario-blanco: white;
+    --color-secundario-negro: black;
+    --color-terciario-gris: gray;
+    --color-quaternario-azul: blue;
+    --color-cinco-verde: rgb(47, 255, 99);
+
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
 /* ********RESETEAR ESTILOS***** */
 .tooltip {
-    --bs-tooltip-font-size: 1.5rem;
-  --bs-tooltip-color: #e01111;
-  --bs-tooltip-bg: #3d10dd;
-  --bs-tooltip-max-width: 200px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --bs-tooltip-font-size: 1.3rem;
+  --bs-tooltip-color: #e9d8d8;
+  --bs-tooltip-bg: var(--color-cinco-verde);
+  --bs-tooltip-max-width: 14rem;
+  font-family: var(--font-family);
 }
 .border-top {
     border-top: var(--bs-border-width) var(--bs-border-style) red !important;
@@ -13,6 +26,17 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: transparent !important;
+  background-color: transparent;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
   
 /* ********BOOTSTRAP ESTILOS***** */
 
@@ -72,6 +96,22 @@ form button {
     border-bottom-right-radius: .375rem;
 
 }
+.footer-link {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer p {
+    font-size: 17px;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
+
+footer i {
+    font-size: 25px;
+}
 
 
 
@@ -98,14 +138,12 @@ form button {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .tex_nav {
-        display: none;
-    }
+    
     .icon_nav {
         display: inline-flex;
     }
     .nav-item {
-         font-size: calc(1.325rem + 0.9vw) !important;
+         font-size: calc(1rem + 0.9vw) !important;
           
     }
     .input {

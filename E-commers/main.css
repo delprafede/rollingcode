@@ -14,9 +14,6 @@
     border-bottom-right-radius: 0;
   }
   
-  .w-100 {
-    width: 80% !important;
-  }
 /* ********BOOTSTRAP ESTILOS***** */
 
 .nav-item {
@@ -26,12 +23,6 @@
 .nav-item:hover {
     background-color: transparent;
 }
-/* .nav-link {
-    margin-left: .5rem;
-    color: white;
-    font-size: 1.15rem ;
-    font-weight: bold;
-} */
 .nav-link:hover {
     color: white !important;
 }
@@ -73,8 +64,8 @@ a:hover {
     display: none;
 }
 .input {
-    width: 90%;
-    max-width: 30rem;
+    width: 70%;
+    
 }
 form button {
     border-top-right-radius: .375rem;
@@ -90,14 +81,16 @@ form button {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    .menu-hamburguesa {
-        display: none;
-    }
+    
     .icon_nav {
         display: none;
     }
     .texto {
         display: block;
+    }
+    .input {
+        max-width: 30rem;
+        
     }
  }
 
@@ -117,7 +110,7 @@ form button {
     }
     .input {
         width: 70%;
-        max-width: 30rem;
+        /* max-width: 30rem; */
  }
  .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0;
@@ -130,7 +123,18 @@ form button {
 
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+    .menu-hamburguesa {
+        display:none ;
+    }
+    .img-logo {
+        padding-left: 1rem !important;
+    }
+    .input {
+        width: 80%;
+       
+ }
+ }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

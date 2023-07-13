@@ -137,3 +137,20 @@ form button {
 /* 
 // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }
+
+.footer a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer p {
+    font-size: 17px;
+}
+
+footer a:hover {
+    color: #0d6efd !important;
+}
+
+footer i {
+    font-size: 25px;
+}

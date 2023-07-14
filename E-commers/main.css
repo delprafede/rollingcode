@@ -6,6 +6,11 @@
     --color-cinco-verde: rgb(47, 255, 99);
 
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        --dark: #16191c;
+        --dark-x: #1e2126;
+        --light: #ffffff;
+    
 }
 
 
@@ -160,6 +165,20 @@ footer i {
 }
 
 
+/* paginalogin */
+
+
+body {
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+.bg-dark-x, .btn {
+    background-color: var(--dark-x);
+}
 
 
 /* // X-Small devices (portrait phones, less than 576px) */

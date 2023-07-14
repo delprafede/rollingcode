@@ -164,7 +164,7 @@ form button {
     justify-content:space-between;
     flex-direction: column;
     background-position: center;
-   padding-top: 10%;
+   /* padding-top: 10%; */
 }
 
 #padrenos{display: flex;
@@ -177,3 +177,5 @@ form button {
     margin:10vh;
    
 }
+
+.Foot{background-color: saddlebrown;}

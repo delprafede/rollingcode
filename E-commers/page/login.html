@@ -30,28 +30,26 @@
 
         <div class="col-lg-7">
           <!-- #region Carrucel-->
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/E-commers/img/alpa0.JPG" class="d-block w-100" alt="...">
+                <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t39.30808-6/291004293_5645556812121995_1049854392453864507_n.jpg?stp=dst-jpg_p526x296&_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=EKhcBKEWbaYAX82BOUR&_nc_ht=scontent.faep14-2.fna&oh=00_AfDr6sMAF4c4RA-y_vYKj3eAqvrsRYw9vOrGMK2LZAqBcw&oe=64B6B622" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/E-commers/img/alpa1.JPG" class="d-block w-100" alt="...">
+                <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t39.30808-6/294534191_631908981880099_4862762765967562765_n.jpg?stp=dst-jpg_p600x600&_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Ja7jm5_0OFcAX8wVnkT&_nc_ht=scontent.faep14-2.fna&oh=00_AfCydhfnvCFYzJnFuDhTbXmjAZvzSm3c0S534AaI3lDWIw&oe=64B6187A" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/E-commers/img/alpa2.JPG" class="d-block w-100" alt="...">
+                <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t1.6435-9/116019163_156452586092410_6761876687379582496_n.jpg?stp=dst-jpg_p600x600&_nc_cat=107&cb=99be929b-59f725be&ccb=1-7&_nc_sid=a26aad&_nc_ohc=iB3sFtRsGqAAX9iP-qa&_nc_ht=scontent.faep14-2.fna&oh=00_AfBGOK26H8CPQgN7rZk1wZ-Fp7jlY_j0MNYf1FFpsK41jw&oe=64D8DA9E" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://scontent.faep14-3.fna.fbcdn.net/v/t39.30808-6/350128805_1718852031900802_5530397029601918761_n.jpg?_nc_cat=105&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=edlR6JX9Y6YAX-32rEQ&_nc_ht=scontent.faep14-3.fna&oh=00_AfBR5I8XstEny-m_qmLp8cUP-5bEl6OrWcvrrNyvkTB_bw&oe=64B5C9E9" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -62,7 +60,7 @@
         </div>
 
         <div class="col-lg-5">
-          <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4">
+          <div class="px-lg-5 pt-lg-4 pb-lg-3 p-3">
             <img src="/E-commers/img/Logo.png" class="img-fluid">
           </div>
           <div class="px-lg-5 py-lg-4 p-4">
@@ -79,6 +77,11 @@
               </div>
               <button type="submit" class="btn btn-primary w-75">Iniciar Sesión</button>
             </form>
+            <p class="font-weight-bold text-muted">o inicia Sesión con:</p>
+            <div>
+              <button type="submit" class="btn btn-primary">Google</button>
+              <button type="submit" class="btn btn-primary">facebook</button>
+            </div>
           </div>          
         </div>
 
@@ -86,4 +89,11 @@
         
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+    </script>
   </body>

@@ -12,7 +12,24 @@
         --light: #ffffff;
     
 }
-
+.cont-caru {
+    
+    height: 35vh !important;
+}
+.img-caru {
+    object-fit: cover;
+}
+.container-carrusel {
+   
+}
+.container-bg-img {
+    background-image: url(./img/353065597_710813511054060_9158423684060028871_n.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 35vh;
+}
 
 
 
@@ -130,9 +147,9 @@ a:hover {
 .nav-item-nosotros {
     display: none;
 }
-.texto {
+/* .nav-item_texto {
     display: none;
-}
+} */
 .input {
     width: 70%;
     

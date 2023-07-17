@@ -4,8 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registri de usuriao</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <nav class="Foot navbar navbar-expand-lg  d-flex justify-content-center">
+        <div class="row w-100 align-items-center container-lg container-xl container-xxl">
+          <!-- *******menu-hamburguesa****** -->
+         <div class="col-2 col-sm-1 col-md-1 text-center menu-hamburguesa p-0 "> 
+          
+           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon border-0"></span>
+           </button>
+                     
+            <div
+              class="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav w-100 mb-md-0 text-white  tex_nav">
+                
+              <li class="nav-item fs-4">
+                <a class="nav-link text-white fw-bold" href="#">inicio</i></i></a>
+              </li>
+              <li class="nav-item fs-4 ">
+                <a class="nav-link text-white fw-bold" href="#">contacto</i></a>
+              </li>
+              <li class="nav-item fs-4 ">
+                <a class="nav-link text-white fw-bold" href="#">login</i></a>
+              </li>
+              <li class="nav-item fs-4">
+                <a class="nav-link text-warning fw-bold" href="#"><i class="bi bi-cart2"></i></a>
+              </li>
+           
+            </ul>
+          </div>
+         </div>
+                 <!-- *******img-logo****** -->
+    
+         <div class="col-3 col-sm-5 col-md-1  col-lg-2 col-xl-2 col-xxl-2 border d-flex justify-content-start p-1 img-logo">
+    
+           <a class="text-white" href="#"><img class="img-shifu rounded-circle" src="./img/img-logo.png" alt="logo"></a>
+         </div>
+                 <!-- *******menu-iconos****** -->
+    
+         <div class="col-7 col-sm-6  col-md-4 col-lg-3 col-xl-3 col-xxl-3 border order-md-2 d-flex justify-content-end">
+    
+           <ul class="navbar-nav gap-2 gap-sm-3 gap-md-2 gap-lg-2 gap-xl-2 gap-xxl-2 d-flex flex-row justify-content-end align-items-center">
+             <li class="nav-item fs-4">
+               <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Inicio" data-bs-placement="bottom"         data-bs-custom-class="custom-tooltip fst-italic"
+    
+                 ><i class="bi bi-house-door"></i></a
+               >
+             </li>
+             <li class="nav-item fs-4">
+               <a class="nav-link text-white fw-bold" href="#"><i class="bi bi-telephone"></i></i></a>
+             </li>
+             <li class="nav-item fs-4">
+               <a class="nav-link text-white fw-bold" href="#"><i class="bi bi-person-circle"></i></a>
+             </li>
+             <li class="nav-item fs-4">
+               <a class="nav-link text-warning fw-bold" href="#"><i class="bi bi-cart2"><sup class="text-white">0</sup></i></a>
+             </li>
+          
+           </ul>
+         </div>
+                 <!-- *******imput-buscar****** -->
+    
+         <div class="col-12 col-md-6 col-lg-7 col-xl-7  col-xxl-7 border d-flex order-md-1 justify-content-center pt-2 border-top">
+    
+           <form class="d-flex w-100 justify-content-center"  role="search">
+             <input
+             class="form-control input"
+             type="search"
+             placeholder="Buscar"
+             aria-label="Search"
+             />
+             <button type="submit" class="bg-white d-flex align-items-baseline gap-2  pt-1 text-dark border">
+               <i class="bi bi-search fs-4"></i>
+               <p class="fs-4 texto">Buscar</p>
+              </button>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-2">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-2">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        </form>
+      
+      <form class=" d-flex align-items-center flex-column ">
+        <div class="col-md-4">
+          <label for="inputEmail4" class="form-label col-12">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-4">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-md-4">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-md-4">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-4">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+
+    
+
+      <Footer class="bg-ligth text-dark pt-5 pb-4">
+        <section class="container  text-start text-md-start text-lg-start text-xl-center text-xxl-center">
+            <div class="row text-start text-md-start">
+                
+                <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  mt-3">
+  
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                    <hr class="mb-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Illum praesentium qui sed? Nisi vitae praesentium,
+                        repudiandae culpa voluptas facilis impedit ut quaerat similique
+                        eum sint. Commodi laudantium error soluta totam?
+                    </p>
+                </div>
+  
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Dejanos Ayudarte</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#" class="text-dark footer-link">Tu Cuenta</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark footer-link">Tus Pedidos</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-dark footer-link">Ayuda</a>
+                    </p>
+                </div>
+  
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <i class="bi bi-buildings me-3"></i> Gral.Paz 1849 - Tucumán
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope-at-fill me-3"></i><a class="text-decoration-none" href="mailto:yocampoo@hotmail.com">yocampoo@hotmail.com
+                        </a></p>
+                    <p>
+                        <i class="bi bi-telephone-inbound-fill me-3"></i><a class="text-decoration-none" href="tel:+54 381156811852">+54 381156811852</a> 
+                    </p>
+                </div>
+  
+                <hr class="mb-4">
+  
+                <div class="text-center mb-2">
+                    <p>
+                        Copyright Todos los Derechos Reservados - Grupo Shifu
+                        <a href="#">
+                            <strong class="text-primary">Test</strong>
+                        </a>
+                    </p>
+                </div>
+  
+                <div class="text-center">
+                    <ul class="list-unstyled list-inline">
+  
+                        <li class="list-inline-item">
+                            <a href="#" class="fs-2"> <i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fs-2"> <i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fs-2"> <i class="bi bi-google"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fs-2"> <i class="bi bi-youtube"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+  
+  
+  
+            </div>
+        </section>
+    </Footer>
+  
     
 </body>
 </html>

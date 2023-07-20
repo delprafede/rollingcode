@@ -14,87 +14,107 @@
     />
   </head>
 <body class="bodyacercanos">
-  <nav class="Foot navbar navbar-expand-lg  d-flex justify-content-center">
-    <div class="row w-100 align-items-center container-lg container-xl container-xxl">
+  <!--region nav--> 
+  <nav class=" bg-dark d-flex justify-content-center sticky-top container-nav">
+    <div class="row w-100 container-lg container-xl container-xxl align-items-center">
       <!-- *******menu-hamburguesa****** -->
-     <div class="col-2 col-sm-1 col-md-1 text-center menu-hamburguesa p-0 "> 
+     <div class="navbar navbar-expand-lg col-2 col-sm-1 col-md-1  order-md-0 menu-hamburguesa p-0"> 
       
-       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon border-0"></span>
+       <button class="navbar-toggler w-100 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
        </button>
                  
-        <div
-          class="collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav w-100 mb-md-0 text-white  tex_nav">
-            
-          <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" href="#">inicio</i></i></a>
-          </li>
-          <li class="nav-item fs-4 ">
-            <a class="nav-link text-white fw-bold" href="#">contacto</i></a>
-          </li>
-          <li class="nav-item fs-4 ">
-            <a class="nav-link text-white fw-bold" href="#">login</i></a>
-          </li>
-          <li class="nav-item fs-4">
-            <a class="nav-link text-warning fw-bold" href="#"><i class="bi bi-cart2"></i></a>
-          </li>
-       
-        </ul>
-      </div>
+        
      </div>
              <!-- *******img-logo****** -->
 
-     <div class="col-3 col-sm-5 col-md-1  col-lg-2 col-xl-2 col-xxl-2 border d-flex justify-content-start p-1 img-logo">
+     <div class="col-3 col-sm-5 col-md-1  col-lg-3 col-xl-3 col-xxl-2  order-md-1 d-flex justify-content-start p-1 img-logo">
 
        <a class="text-white" href="#"><img class="img-shifu rounded-circle" src="./img/img-logo.png" alt="logo"></a>
      </div>
              <!-- *******menu-iconos****** -->
 
-     <div class="col-7 col-sm-6  col-md-4 col-lg-3 col-xl-3 col-xxl-3 border order-md-2 d-flex justify-content-end">
+     <div class="col-7 col-sm-6  col-md-3 col-lg-3 col-xl-3 col-xxl-3 order-md-3 d-flex justify-content-end pe-md-4">
 
-       <ul class="navbar-nav gap-2 gap-sm-3 gap-md-2 gap-lg-2 gap-xl-2 gap-xxl-2 d-flex flex-row justify-content-end align-items-center">
+       <ul class="navbar-nav gap-2 gap-sm-3 gap-md-3 gap-lg-3 gap-xl-4 gap-xxl-4 d-flex flex-row justify-content-end">
          <li class="nav-item fs-4">
-           <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Inicio" data-bs-placement="bottom"         data-bs-custom-class="custom-tooltip fst-italic"
+           <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Inicio" data-bs-placement="bottom"  data-bs-custom-class="custom-tooltip fst-italic"
 
              ><i class="bi bi-house-door"></i></a
            >
          </li>
          <li class="nav-item fs-4">
-           <a class="nav-link text-white fw-bold" href="#"><i class="bi bi-telephone"></i></i></a>
+           <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Contacto" data-bs-placement="bottom"  data-bs-custom-class="custom-tooltip fst-italic" href="#"><i class="bi bi-telephone"></i></i></a>
          </li>
          <li class="nav-item fs-4">
-           <a class="nav-link text-white fw-bold" href="#"><i class="bi bi-person-circle"></i></a>
+
+           <a class="nav-link text-white fw-bold" href="./pages/accerca de nosostros.html"><i class="bi bi-person-circle"></i></a>
+
+         
          </li>
          <li class="nav-item fs-4">
-           <a class="nav-link text-warning fw-bold" href="#"><i class="bi bi-cart2"><sup class="text-white">0</sup></i></a>
+           <a class="nav-link text-warning fw-bold" aria-current="page" data-bs-toggle="tooltip"  data-bs-title="carrito vacio" data-bs-placement="bottom"  data-bs-custom-class="custom-tooltip fst-italic"  href="#"><i class="bi bi-cart2"><span class="position-absolute top-25 start-90 translate-middle badge rounded-pill bg-danger">
+            0
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </i></a>
          </li>
       
        </ul>
      </div>
+
+     <!-- ++++++++++++menu-collapse++++++ -->
+     <div
+     class="collapse navbar-collapse order-md-4"
+     id="navbarSupportedContent"
+   >
+     <ul class="navbar-nav mb-md-0 text-white">
+       
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Promociones</i></i></a>
+     </li>
+     <li class="nav-collapse fs3">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 1</i></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 2</i></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 3</i></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Nosotros</i></a>
+     </li>
+  
+   </ul>
+ </div>
              <!-- *******imput-buscar****** -->
 
-     <div class="col-12 col-md-6 col-lg-7 col-xl-7  col-xxl-7 border d-flex order-md-1 justify-content-center pt-2 border-top">
+     <div class="col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-7 d-flex order-md-2 justify-content-center align-items-center border-top">
 
-       <form class="d-flex w-100 justify-content-center"  role="search">
+       <form class="d-flex w-100 justify-content-center mt-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 justify-content-md-end justify-content-lg-center justify-content-xl-center"  role="search">
          <input
-         class="form-control input"
+         class="form-controlindex input border fst-italic"
          type="search"
          placeholder="Buscar"
          aria-label="Search"
          />
-         <button type="submit" class="bg-white d-flex align-items-baseline gap-2  pt-1 text-dark border">
-           <i class="bi bi-search fs-4"></i>
-           <p class="fs-4 texto">Buscar</p>
+         <button type="submit" class="bg-white d-flex gap-2  text-dark border fst-italic">
+           <i class="bi bi-search fs-5"></i>
+           <p class="">Buscar</p>
           </button>
           
         </form>
       </div>
+      
     </div>
   </nav>
+
   <div id="padreacerca" >
+
+    
+     
+
      <div class="shifu card text-bg-dark">
         <img src="https://www.enjpg.com/img/2020/kung-fu-panda-8.jpg" class="card-img" alt="...">
         <div class="card-img-overlay">
@@ -103,9 +123,16 @@
           <p class="card-text"><small>Last updated 3 mins ago</small></p>
         </div>
       </div>
-    
-  
-      <div class="card mb-3 bg-danger"  style="max-width: 60%;">
+    <div class="grid text-center d-flex flex-row justify-content-center">
+      <div class="g-col-2 g-col-md-1">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.pHeOCtdtl-s-NyyExdFdlgHaEE&pid=Api&P=0&h=180" class="h-75 img-fluid  rounded-circle container-fluid" alt="...">
+      <div class="card-body bg-danger rounded mb-1">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+      <!-- <div class="card mb-3 bg-danger"  style="max-width: 60%;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="https://tse4.mm.bing.net/th?id=OIP.pHeOCtdtl-s-NyyExdFdlgHaEE&pid=Api&P=0&h=180" class="img-fluid  rounded-start" alt="...">
@@ -118,8 +145,20 @@
             </div>
           </div>
         </div>
+      </div> -->
+
+      
+      <div class="g-col-2 g-col-md-1">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.ec-GzAzZ8iORT2W52MNP7wHaEK&pid=Api&P=0&h=180" class="h-75 img-fluid  rounded-circle container-fluid" alt="...">
+        <div class="card-body bg-success rounded mb-1">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
       </div>
-      <div class="card mb-3 bg-success"  style="max-width: 60%;">
+    
+
+      <!-- <div class="card mb-3 bg-success"  style="max-width: 60%;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="https://tse2.mm.bing.net/th?id=OIP.ec-GzAzZ8iORT2W52MNP7wHaEK&pid=Api&P=0&h=180" class="img-fluid  rounded-start" alt="...">
@@ -132,8 +171,20 @@
             </div>
           </div>
         </div>
+      </div> -->
+      <div class="g-col-2 g-col-md-1">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.3bP6ytburAzqHQQHgXsu9wHaFk&pid=Api&P=0&h=180" class="img-fluid  rounded-circle container-fluid" alt="...">
+        <div class="card-body bg-warning rounded mb-1">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
       </div>
-      <div class="card mb-3 bg-warning" style="max-width: 70%;">
+    </div>
+  </div>
+
+
+      <!-- <div class="card mb-3 bg-warning" style="max-width: 70%;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="https://tse3.mm.bing.net/th?id=OIP.3bP6ytburAzqHQQHgXsu9wHaFk&pid=Api&P=0&h=180" class="img-fluid  rounded-start" alt="...">
@@ -146,8 +197,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 bg-secondary bg-gradient" style="max-width: 75%;">
+      </div>-->
+      <div class="card mb-3 bg-secondary bg-gradient" style="max-width: 75%;"> 
         <div class="row g-0">
           <div class="col-md-4">
             <img src="data:image/jpeg;base64,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" class="img-fluid   rounded-start" alt="...">

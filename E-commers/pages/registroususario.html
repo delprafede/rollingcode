@@ -7,88 +7,110 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link href="../main.css" rel="stylesheet" type="text/css">
+     <!-- *******ICONOS******** -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+   />
 </head>
-<body>
-    <nav class="Foot navbar navbar-expand-lg  d-flex justify-content-center">
-        <div class="row w-100 align-items-center container-lg container-xl container-xxl">
-          <!-- *******menu-hamburguesa****** -->
-         <div class="col-2 col-sm-1 col-md-1 text-center menu-hamburguesa p-0 "> 
+<body class="bodyacercanos">
+  <!--region nav--> 
+  <!--region nav--> 
+  <nav class=" bg-dark d-flex justify-content-center sticky-top container-nav">
+    <div class="row w-100 container-lg container-xl container-xxl align-items-center">
+      <!-- *******menu-hamburguesa****** -->
+     <div class="navbar navbar-expand-lg col-2 col-sm-1 col-md-1  order-md-0 menu-hamburguesa p-0"> 
+      
+       <button class="navbar-toggler w-100 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+                 
+        
+     </div>
+             <!-- *******img-logo****** -->
+
+     <div class="col-3 col-sm-5 col-md-1  col-lg-3 col-xl-3 col-xxl-2  order-md-1 d-flex justify-content-start p-1 img-logo">
+
+       <a class="text-white" href="#"><img class="img-shifu rounded-circle" src="../img/img-logo.png" alt="logo"></a>
+     </div>
+             <!-- *******menu-iconos****** -->
+
+     <div class="col-7 col-sm-6  col-md-3 col-lg-3 col-xl-3 col-xxl-3 order-md-3 d-flex justify-content-end pe-md-4">
+
+       <ul class="navbar-nav gap-2 gap-sm-3 gap-md-3 gap-lg-3 gap-xl-4 gap-xxl-4 d-flex flex-row justify-content-end">
+         <li class="nav-item fs-4">
+           <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Inicio" data-bs-placement="bottom"  data-bs-custom-class="custom-tooltip fst-italic"
+
+             ><i class="bi bi-house-door"></i></a
+           >
+         </li>
+         <li class="nav-item fs-4">
+           <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Contacto" data-bs-placement="bottom"  data-bs-custom-class="custom-tooltip fst-italic" href="#"><i class="bi bi-telephone"></i></i></a>
+         </li>
+         <li class="nav-item fs-4">
+
+           <a class="nav-link text-white fw-bold" href="./pages/accerca de nosostros.html"><i class="bi bi-person-circle"></i></a>
+
+         
+         </li>
+         <li class="nav-item fs-4">
+           <a class="nav-link text-warning fw-bold" aria-current="page" data-bs-toggle="tooltip"  data-bs-title="carrito vacio" data-bs-placement="bottom"  data-bs-custom-class="custom-tooltip fst-italic"  href="#"><i class="bi bi-cart2"><span class="position-absolute top-25 start-90 translate-middle badge rounded-pill bg-danger">
+            0
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </i></a>
+         </li>
+      
+       </ul>
+     </div>
+
+     <!-- ++++++++++++menu-collapse++++++ -->
+     <div
+     class="collapse navbar-collapse order-md-4"
+     id="navbarSupportedContent"
+   >
+     <ul class="navbar-nav mb-md-0 text-white">
+       
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Promociones</i></i></a>
+     </li>
+     <li class="nav-collapse fs3">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 1</i></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 2</i></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 3</i></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Nosotros</i></a>
+     </li>
+  
+   </ul>
+ </div>
+             <!-- *******imput-buscar****** -->
+
+     <div class="col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-7 d-flex order-md-2 justify-content-center align-items-center border-top">
+
+       <form class="d-flex w-100 justify-content-center mt-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 justify-content-md-end justify-content-lg-center justify-content-xl-center"  role="search">
+         <input
+         class="form-controlindex input border fst-italic"
+         type="search"
+         placeholder="Buscar"
+         aria-label="Search"
+         />
+         <button type="submit" class="bg-white d-flex gap-2  text-dark border fst-italic">
+           <i class="bi bi-search fs-5"></i>
+           <p class="">Buscar</p>
+          </button>
           
-           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon border-0"></span>
-           </button>
-                     
-            <div
-              class="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav w-100 mb-md-0 text-white  tex_nav">
-                
-              <li class="nav-item fs-4">
-                <a class="nav-link text-white fw-bold" href="#">inicio</i></i></a>
-              </li>
-              <li class="nav-item fs-4 ">
-                <a class="nav-link text-white fw-bold" href="#">contacto</i></a>
-              </li>
-              <li class="nav-item fs-4 ">
-                <a class="nav-link text-white fw-bold" href="#">login</i></a>
-              </li>
-              <li class="nav-item fs-4">
-                <a class="nav-link text-warning fw-bold" href="#"><i class="bi bi-cart2"></i></a>
-              </li>
-           
-            </ul>
-          </div>
-         </div>
-                 <!-- *******img-logo****** -->
-    
-         <div class="col-3 col-sm-5 col-md-1  col-lg-2 col-xl-2 col-xxl-2 border d-flex justify-content-start p-1 img-logo">
-    
-           <a class="text-white" href="#"><img class="img-shifu rounded-circle" src="./img/img-logo.png" alt="logo"></a>
-         </div>
-                 <!-- *******menu-iconos****** -->
-    
-         <div class="col-7 col-sm-6  col-md-4 col-lg-3 col-xl-3 col-xxl-3 border order-md-2 d-flex justify-content-end">
-    
-           <ul class="navbar-nav gap-2 gap-sm-3 gap-md-2 gap-lg-2 gap-xl-2 gap-xxl-2 d-flex flex-row justify-content-end align-items-center">
-             <li class="nav-item fs-4">
-               <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"  data-bs-title="Inicio" data-bs-placement="bottom"         data-bs-custom-class="custom-tooltip fst-italic"
-    
-                 ><i class="bi bi-house-door"></i></a
-               >
-             </li>
-             <li class="nav-item fs-4">
-               <a class="nav-link text-white fw-bold" href="#"><i class="bi bi-telephone"></i></i></a>
-             </li>
-             <li class="nav-item fs-4">
-               <a class="nav-link text-white fw-bold" href="#"><i class="bi bi-person-circle"></i></a>
-             </li>
-             <li class="nav-item fs-4">
-               <a class="nav-link text-warning fw-bold" href="#"><i class="bi bi-cart2"><sup class="text-white">0</sup></i></a>
-             </li>
-          
-           </ul>
-         </div>
-                 <!-- *******imput-buscar****** -->
-    
-         <div class="col-12 col-md-6 col-lg-7 col-xl-7  col-xxl-7 border d-flex order-md-1 justify-content-center pt-2 border-top">
-    
-           <form class="d-flex w-100 justify-content-center"  role="search">
-             <input
-             class="form-control input"
-             type="search"
-             placeholder="Buscar"
-             aria-label="Search"
-             />
-             <button type="submit" class="bg-white d-flex align-items-baseline gap-2  pt-1 text-dark border">
-               <i class="bi bi-search fs-4"></i>
-               <p class="fs-4 texto">Buscar</p>
-              </button>
-              
-            </form>
-          </div>
-        </div>
-      </nav>
+        </form>
+      </div>
+      
+    </div>
+  </nav>
+
       <form class="row g-3 justify-content-center">
         <div class="col-md-2">
           <label for="inputEmail4" class="form-label">Nombres</label>
@@ -169,13 +191,13 @@
       <br>
         <form class=" d-flex align-items-center justify-content-center">
         <div class="col-md-1">
-          <button type="submit" class="btn btn-primary">Regristrar</button>
+          <button type="submit" class="btn btn-primary" > Registrar </button>
         </div>
       </form>
 
     
 
-      <Footer class="bg-ligth text-dark pt-5 pb-4">
+      <Footer class="bg-dark text-dark pt-5 pb-4">
         <section class="container  text-start text-md-start text-lg-start text-xl-center text-xxl-center">
             <div class="row text-start text-md-start">
                 

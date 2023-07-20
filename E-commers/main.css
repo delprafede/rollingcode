@@ -27,7 +27,7 @@
 .border-top {
     border-top: var(--bs-border-width) var(--bs-border-style) red !important;
   }
-  .form-control {
+  .form-controlindex {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
@@ -168,7 +168,7 @@ footer i {
 /* paginalogin */
 
 
-body {
+.bodyindex {
     font-weight: 300;
     color: var(--light);
 }

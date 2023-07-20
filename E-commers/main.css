@@ -14,6 +14,7 @@
 }
 * {
         font-family: var(--font-family);
+       
 }
 
 
@@ -155,6 +156,9 @@ a:hover {
     width: 70%;
     
 }
+
+   
+    
 .col-propa {
     display: none;
 }
@@ -165,6 +169,13 @@ form button {
 }
 .container-main-caroousel {
     height: 15vh;
+}
+.contenedor-seccion02 {
+    max-height: 500px;
+}
+.img-sec-02 {
+    width: 100%;
+    height: 200px;
 }
 .footer-link {
     text-decoration: none;

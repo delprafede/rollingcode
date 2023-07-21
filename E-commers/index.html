@@ -46,7 +46,7 @@
       <div
         class="col-3 col-sm-5 col-md-1  col-lg-3 col-xl-3 col-xxl-2  order-md-1 d-flex justify-content-start p-1 img-logo">
 
-        <a class="text-white" href="#"><img class="img-shifu rounded-circle" src="./img/imglogo01.jpg" alt="logo"></a>
+        <a class="text-white" href="./index.html"><img class="img-shifu rounded-circle" src="./img/imglogo01.jpg" alt="logo"></a>
       </div>
       <!-- *******menu-iconos****** -->
 
@@ -54,22 +54,22 @@
 
         <ul class="navbar-nav gap-2 gap-sm-3 gap-md-3 gap-lg-3 gap-xl-4 gap-xxl-4 d-flex flex-row justify-content-end">
           <li class="nav-item fs-4">
-            <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"
+            <a class="nav-link active fw-bold text-white" aria-current="page" href="./index.html" data-bs-toggle="tooltip"
               data-bs-title="Inicio" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
                 class="bi bi-house-door"></i></a>
           </li>
           <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"
+            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/login.html" data-bs-toggle="tooltip"
               data-bs-title="Acceder" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
               href="#"><i class="bi bi-person-circle"></i></a>
           </li>
           <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"
+            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/contacto.html" data-bs-toggle="tooltip"
               data-bs-title="Contacto" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
               href="#"><i class="bi bi-telephone"></i></a>
           </li>
           <li class="nav-item fs-4 nav-item-nosotros">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"
+            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/accercadenosostros.html" data-bs-toggle="tooltip"
               data-bs-title="Nosotros" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
               href="#"><i class="bi bi-people-fill"></i></a>
           </li>
@@ -81,7 +81,7 @@
                 class="bi bi-cart2">
                 <span class="position-absolute top-25 start-90 translate-middle badge rounded-pill bg-danger">
                   1
-                  <span class="visually-hidden">unread messages</span>
+                  <!-- <span class="visually-hidden">unread messages</span> -->
                 </span>
               </i></a>
 
@@ -90,7 +90,7 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
           aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title text-warning display-4" id="offcanvasExampleLabel">Carrito</h5>
+            <h5 class="offcanvas-title text-warning fs-1" id="offcanvasExampleLabel"> <a href="#">Ver Carrito</a></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -133,7 +133,7 @@
 
 
       <!--#menu-collapse-->
-      <div class="collapse navbar-collapse order-md-4" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse order-md-4 x" id="navbarSupportedContent">
         <ul class="navbar-nav mb-md-0 text-white">
 
           <li class="nav-item">
@@ -150,7 +150,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold nav-item_texto"
-              href="#">Nosotros</i></a>
+              href="./pages/accercadenosostros.html">Nosotros</i></a>
           </li>
 
         </ul>
@@ -269,10 +269,10 @@
     <section class="container row mb-5"> <!-- contenedor-seccion0 -->
 
     <article class="col-12 ">
-      <div class="card mb-3 border-0 h-100">
+      <div class="card  border-0 h-100">
         <div class="row g-0 h-100">
-          <div class="col-md-6 h-100 img-sec-02">
-            <img src="./img/bombachas.jfif" class=" w-100 rounded h-100 " alt="...">
+          <div class="col-md-6 img-sec-02">
+            <img src="./img/bombachas.jfif" class=" w-100 rounded h-100  " alt="...">
           </div>
           <div class="col-md-6">
             <div class="card-body">
@@ -296,14 +296,14 @@
   <!--#endregion-->
   <!--#region seccion-3-->
   <section class="row container mb-5">
-    <aside class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+    <aside class="col-12 col-md-4 mb-5 mb-md-0 ">
       <div class="container-img_gif">
         
         <img class="img-gif" src="./img/publicidad04.jpg" alt="">
       </div>
     </aside>
 
-    <article class="col12 col-md-8 col-lg-6 col-xl-8 col-xxl-8">
+    <article class="col12 col-md-8">
 
       <div class="card mb-3 h-100 border-0">
         <div class="row g-0 h-100">
@@ -332,7 +332,7 @@
  <!--#endregion main-->
 
  <!--#region footer-->
- <Footer class="bg-ligth text-dark container pt-5 p-2">
+ <Footer class="bg-ligth text-dark container p-2">
   <section class="container  text-start text-md-start text-lg-start text-xl-center text-xxl-center">
     <div class="row text-start text-md-start">
 
@@ -432,6 +432,6 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 </script>
 <!--#endregion script-->
 
- 
+</body>
 
 </html>

@@ -154,13 +154,13 @@ body {
 
 
 a {
-    color: rgb(39, 204, 88);
+    /* color: rgb(39, 204, 88); */
     transition: all .3s ease-out;
 }
 
-a:hover {
+/* a:hover {
     color: #ffd700;
-}
+} */
 
 /* ********MI ESTILOS***** */
 .bg-color-opacity {
@@ -205,9 +205,7 @@ a:hover {
     display: none;
 }
 
-/* .nav-item_texto {
-    display: none;
-} */
+
 .input {
     width: 70%;
 
@@ -215,9 +213,7 @@ a:hover {
 
 
 
-.col-propa {
-    display: none;
-}
+
 
 form button {
     border-top-right-radius: .375rem;
@@ -229,9 +225,7 @@ form button {
     height: 15vh;
 }
 
-/* .contenedor-seccion02 {
-    max-height: 500px;
-} */
+
 
 .footer-link {
     text-decoration: none;
@@ -277,10 +271,7 @@ body {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .img-hv {
-        height: 70vh;
-        width: 100%;
-    }
+   
 
    
 
@@ -353,6 +344,10 @@ body {
      
        max-height: 30rem !important;
     } 
+    .img-sec-02 {
+
+        max-height: 300px !important;
+     }
     .rounded {
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
@@ -392,14 +387,15 @@ body {
         font-size: .8rem;
     }
 
-    .img-sec-02 {
-
-       max-height: 400px !important;
-    }
+    
     .rounded {
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
     }
+    .img-hv-1 {
+     
+        max-height: 40rem !important;
+     } 
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -420,8 +416,8 @@ body {
 
     .img-sec-02 {
 
-        height: 400px !important;
-    }
+        max-height: 400px !important;
+     }
     .rounded {
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0 !important;
@@ -452,8 +448,8 @@ body {
 
     .img-sec-02 {
 
-        height: 400px;
-    }
+        max-height: 600px !important;
+     }
 
 
     .container-nav {
@@ -472,7 +468,10 @@ body {
     .rounded {
         border-top-right-radius: 0 !important;
         border-bottom-right-radius: 0!important;
-    }
+    }.img-hv-1 {
+     
+        max-height: 50rem !important;
+     } 
 }
 
 /*-----------Acerca Nosotros---------- */

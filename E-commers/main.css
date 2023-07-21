@@ -119,6 +119,46 @@ footer i {
 }
 
 
+/* PAGINA 404 */
+
+.page_404 {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.bg_404 {
+    background: url(./img/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+}
+
+.cuatrocerocuatro {
+    font-size: 80px;
+}
+
+.volverinicio {
+    color: #fff;
+    text-decoration: none;
+    background-color: #39ac31;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+
+/* botones de color */
+
+.bg-color-check1 {
+    background-color: #39ac31 !important;
+}
+
+.img-op {
+    width: 100px;
+    height: 100px;
+}
 
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -136,6 +176,15 @@ footer i {
     .input {
         max-width: 30rem;
         
+    }
+
+    .cajacoment {
+        width: 50% !important;
+    }
+    
+    .botoncoment {
+        width: 25%;
+        height: 100%;
     }
  }
 
@@ -182,6 +231,11 @@ footer i {
         width: 80%;
        
  }
+
+    .botoncoment {
+    width: 10% !important;
+    height: 100%;
+}
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */

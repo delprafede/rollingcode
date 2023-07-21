@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" href="./img/img-logo.png" type="image/x-icon">
-  <title>Bootstrap demo</title>
+  <title>Producto</title>
 
 
   <!-- ***********Bootstrap********** -->
@@ -148,9 +148,9 @@
               <br>
               <label for="">Selecciona un color</label>
               <div class="pt-3">
+                <input class="form-check-input bg-color-check1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <input class="form-check-input bg-warning" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <input class="form-check-input bg-danger" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <input class="form-check-input bg-success" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <input class="form-check-input bg-color-check3" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               </div>
               <br>
               <select class="form-select" aria-label="Default select example">
@@ -168,28 +168,26 @@
   </div>
   <!-- ++++++++++++ Comentarios ++++++++++++ -->
 
-  <div class="container-fluid">
+  <div class="container-fluid mt-5">
     <div class="row justify-content-center">
-      <div class="col-lg-11 pt-4">
-        <h3>Opiniones</h3>
-        <div class="col-8">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4 cover">
-                <img src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?s=612x612&w=0&k=20&c=8ssXDNTp1XAPan8Bg6mJRwG7EXHshFO5o0v9SIj96nY=" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Carla Mitrovic</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <div class="col-12 pt-3 pb-5 text-center">
+        <h3 class="display-2">Comentarios</h3>
       </div>
+      <div class="col-12 row justify-content-center align-items-center gap-4">
+        <textarea class="w-75 cajacoment" name="comment" id="comment" cols="30" rows="3" placeholder="Escribe tu opinion"></textarea>
+        <button class="btn btn-lg btn-primary w-25 botoncoment ">Enviar</button>
+      </div>
+      <div class="row pt-5">
+        <div class="col-12 col-sm-2 text-center"><img class="img-op rounded-circle" src="./img/istockphoto-1300512215-612x612.jpg" alt="img"></div>
+      <div class="col-12 col-sm-10"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque.</p></div>
+      <hr>
+      <div class="col-12 col-sm-2 text-center"><img class="img-op rounded-circle" src="./img/istockphoto-1300512215-612x612.jpg" alt="img"></div>
+      <div class="col-12 col-sm-10"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque.</p></div>
+      <hr>
+      <div class="col-12 col-sm-2 text-center"><img class="img-op rounded-circle" src="./img/istockphoto-1300512215-612x612.jpg" alt="img"></div>
+      <div class="col-12 col-sm-10"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque.</p></div>
+      </div>
+      
     </div>
   </div>
 </body>

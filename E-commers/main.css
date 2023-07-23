@@ -154,3 +154,28 @@ footer a:hover {
 footer i {
     font-size: 25px;
 }
+/* Css Carro*/
+.bodyCarro {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Css Login*/
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
+
+.bodylogin {
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark-login {
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}

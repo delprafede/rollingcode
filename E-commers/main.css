@@ -50,6 +50,7 @@ body {
 .form-controlindex {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+
 }
 
 .navbar-toggler {
@@ -79,6 +80,7 @@ body {
 }
 
 
+
 /* ********BOOTSTRAP ESTILOS***** */
 
 .nav-item {
@@ -102,6 +104,7 @@ body {
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28241, 230, 30%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     opacity: 0.75;
 }
+
 
 .badge {
     font-size: .8rem;
@@ -148,6 +151,7 @@ body {
 
 .aindex {
     /* color: rgb(39, 204, 88); */
+
     transition: all .3s ease-out;
 }
 
@@ -491,5 +495,51 @@ body {
     width: 120vh;
     margin: 10vh;
 
+}
+
+
+footer i {
+    font-size: 25px;
+}
+
+/* Css Carro*/
+
+.bodyCarro {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* RUBROS */
+
+.rubros {
+    background: #F4F2DE;
+
+}
+
+.imgcard {
+    height: 300px;
+}
+/* Css Login*/
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
+
+.bodylogin {
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark-login {
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+.imglogin {
+    height: 100vb;
 }
 

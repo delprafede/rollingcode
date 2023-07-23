@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="./img/img-logo.png" type="image/x-icon">
-  <title>Alpargata lisa</title>
-
+<!-- ***********TITULO********** -->
+  <title>Yo Campo</title>
+  <!-- ***********FAVICOM********** -->
+  <link rel="shortcut icon" href="./img/img-logo.jpg" type="image/x-icon">
 
   <!-- ***********Bootstrap********** -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,13 +15,21 @@
 
   <!-- *******CSS********** -->
   <link rel="stylesheet" href="./main.css">
+
   <!-- *******ICONOS******** -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <!-- *******FUENTES******** -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <!--#region nav-->
   <nav class=" bg-dark d-flex justify-content-center sticky-top container-nav">
-    <div class="row w-100 container-lg container-xl container-xxl align-items-center">
+    <div
+      class="row w-100 container container-sm container-md container-lg container-xl container-xxl align-items-center pe-1">
       <!-- *******menu-hamburguesa****** -->
       <div class="navbar navbar-expand-lg col-2 col-sm-1 col-md-1  order-md-0 menu-hamburguesa p-0">
 
@@ -37,7 +46,7 @@
       <div
         class="col-3 col-sm-5 col-md-1  col-lg-3 col-xl-3 col-xxl-2  order-md-1 d-flex justify-content-start p-1 img-logo">
 
-        <a class="text-white" href="#"><img class="img-shifu rounded-circle" src="./img/img-logo.png" alt="logo"></a>
+        <a class="text-white" href="./index.html"><img class="img-shifu rounded-circle" src="./img/imglogo01.jpg" alt="logo"></a>
       </div>
       <!-- *******menu-iconos****** -->
 
@@ -45,30 +54,86 @@
 
         <ul class="navbar-nav gap-2 gap-sm-3 gap-md-3 gap-lg-3 gap-xl-4 gap-xxl-4 d-flex flex-row justify-content-end">
           <li class="nav-item fs-4">
-            <a class="nav-link active fw-bold text-white" aria-current="page" href="#" data-bs-toggle="tooltip"
+            <a class="nav-link active fw-bold text-white" aria-current="page" href="./index.html" data-bs-toggle="tooltip"
               data-bs-title="Inicio" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
                 class="bi bi-house-door"></i></a>
           </li>
           <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"
-              data-bs-title="Contacto" data-bs-placement="bottom"
-              data-bs-custom-class="custom-tooltip fst-italic"" href=" #"><i class="bi bi-telephone"></i></i></a>
+            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/login.html" data-bs-toggle="tooltip"
+              data-bs-title="Acceder" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+              href="#"><i class="bi bi-person-circle"></i></a>
           </li>
           <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="#" data-bs-toggle="tooltip"
-              data-bs-title="Loguearse" data-bs-placement="bottom"
-              data-bs-custom-class="custom-tooltip fst-italic"" href=" #"><i class="bi bi-person-circle"></i></a>
+            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/contacto.html" data-bs-toggle="tooltip"
+              data-bs-title="Contacto" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+              href="#"><i class="bi bi-telephone"></i></a>
           </li>
-          <li class="nav-item fs-4">
-            <a class="nav-link text-warning fw-bold " href="#"><i class="bi bi-cart2"><sup
-                  class="text-white">0</sup></i></a>
+          <li class="nav-item fs-4 nav-item-nosotros">
+            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/accercadenosostros.html" data-bs-toggle="tooltip"
+              data-bs-title="Nosotros" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+              href="#"><i class="bi bi-people-fill"></i></a>
           </li>
 
+          <li class="nav-item fs-4" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            aria-controls="offcanvasExample">
+            <a class="nav-link text-warning fw-bold" aria-current="page" data-bs-toggle="tooltip"
+              data-bs-title="Ver carrito" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
+                class="bi bi-cart2">
+                <span class="position-absolute top-25 start-90 translate-middle badge rounded-pill bg-danger">
+                  1
+                  <!-- <span class="visually-hidden">unread messages</span> -->
+                </span>
+              </i></a>
+
+          </li>
         </ul>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-warning fs-1" id="offcanvasExampleLabel"> <a href="#">Ver Carrito</a></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="text-dark">
+              <img class="img-fluid" src="./img/bombachas.jfif" alt="bombachas">
+              <ul class="list-offcanvas">
+                <p> Bombachas de Gaucho Lalo ❤️</p>
+                <li>Excelente calidad</li>
+                <li>Talle 36 al 54</li>
+
+                <li>Tela grafa y poplin</li>
+
+
+                <li>🍂Lisas con guarda pampa en bolsillo</li>
+                <li>🍂Bordadas</li>
+                <li>🍂Mil rallas</li>
+
+              </ul>
+              <form>
+                <label>Cantidad
+
+                  <input type="number" min="1" max="12">
+                </label>
+              </form>
+              <p>$1200</p>
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Realizar
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                <li><a class="dropdown-item" href="#">Guardar</a></li>
+                <li><a class="dropdown-item" href="#">Comprar</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- ++++++++++++menu-collapse++++++ -->
-      <div class="collapse navbar-collapse order-md-4" id="navbarSupportedContent">
+
+      <!--#menu-collapse-->
+      <div class="collapse navbar-collapse order-md-4 x" id="navbarSupportedContent">
         <ul class="navbar-nav mb-md-0 text-white">
 
           <li class="nav-item">
@@ -84,7 +149,8 @@
             <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 3</i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Nosotros</i></a>
+            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold nav-item_texto"
+              href="./pages/accercadenosostros.html">Nosotros</i></a>
           </li>
 
         </ul>
@@ -108,6 +174,7 @@
 
     </div>
   </nav>
+  <!--endregion nav-->
 
   <!-- ++++++++++++ Producto ++++++++++++ -->
 

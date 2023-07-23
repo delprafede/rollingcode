@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registro Usuario- Yo Campo</title>
+    
+    
+    <!-- ***********Bootstrap********** -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+      
+    />
+  
+    <!-- *******CSS********** -->
+    <link rel="stylesheet" href="../main.css">
+    <!-- *******ICONOS******** -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body class="bodyregistro color-registro">
+    <section>
+      <div class="row g-0">
+
+        <div class="col-lg-7 d-none d-lg-block">
+          <!-- #Region Carrucel-->
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1500">
+                <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t39.30808-6/291004293_5645556812121995_1049854392453864507_n.jpg?stp=dst-jpg_p526x296&_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=EKhcBKEWbaYAX82BOUR&_nc_ht=scontent.faep14-2.fna&oh=00_AfDr6sMAF4c4RA-y_vYKj3eAqvrsRYw9vOrGMK2LZAqBcw&oe=64B6B622" class="d-block w-100 img-fluid"  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El mejor estilo de Ropa de Campo</h5>
+                  <a href="#">Visita nuestra Tienda</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t39.30808-6/294534191_631908981880099_4862762765967562765_n.jpg?stp=dst-jpg_p600x600&_nc_cat=101&cb=99be929b-59f725be&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Ja7jm5_0OFcAX8wVnkT&_nc_ht=scontent.faep14-2.fna&oh=00_AfCydhfnvCFYzJnFuDhTbXmjAZvzSm3c0S534AaI3lDWIw&oe=64B6187A" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El mejor estilo de Ropa de Campo</h5>
+                  <a href="#">Visita nuestra Tienda</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="https://scontent.faep14-2.fna.fbcdn.net/v/t1.6435-9/116019163_156452586092410_6761876687379582496_n.jpg?stp=dst-jpg_p600x600&_nc_cat=107&cb=99be929b-59f725be&ccb=1-7&_nc_sid=a26aad&_nc_ohc=iB3sFtRsGqAAX9iP-qa&_nc_ht=scontent.faep14-2.fna&oh=00_AfBGOK26H8CPQgN7rZk1wZ-Fp7jlY_j0MNYf1FFpsK41jw&oe=64D8DA9E" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El mejor estilo de Ropa de Campo</h5>
+                  <a href="#">Visita nuestra Tienda</a>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="https://scontent.faep14-3.fna.fbcdn.net/v/t39.30808-6/350128805_1718852031900802_5530397029601918761_n.jpg?_nc_cat=105&cb=99be929b-59f725be&ccb=1-7&_nc_sid=730e14&_nc_ohc=edlR6JX9Y6YAX-32rEQ&_nc_ht=scontent.faep14-3.fna&oh=00_AfBR5I8XstEny-m_qmLp8cUP-5bEl6OrWcvrrNyvkTB_bw&oe=64B5C9E9" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El mejor estilo de Ropa de Campo</h5>
+                  <a href="#">Visita nuestra Tienda</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- #Fin Carrusel-->
+        </div>
+
+        <div class="col-lg-5 d-flex flex-column align-items-end min-vh-100">
+          <!-- #region Login-->
+          <div class="d-flex align-items-end g-0 w-100 align-self-center">
+            <!--div class="col-lg-4 px-lg-3 pt-lg-3 pb-lg-2 p-1"-->
+              <img src="/E-commers/img/Logo Yo Campo.jpg" class="flex-grow-1  p-2"> 
+            <!--/div>
+            <div class= "col-lg-8 px-lg-8 pt-lg-9 pb-lg-6 p-1"-->
+              <h2 class="font-weight-bold flex-grow-1 align-content-lg-around mb-4">Registro</h2>
+            <!--/div-->
+          </div>
+          
+          <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+            
+            <form class="mb-5">
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Nombres</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Apellido</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+              </div>
+             
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Nombre de Usuario</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+              </div>
+
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Contraseña</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Confirmación  de Contraseña</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+              </div>
+
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Pais</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Provincia</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+              </div>
+
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Ciudad</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6 col-6 col-xl-6">
+                    <label for="inputEmail4" class="form-label">Telefono</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+              </div>
+
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-md-12 col-xl-12 col-12">
+                    <label for="inputEmail4" class="form-label">Dirección</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  
+              </div>
+
+              <div class="mb-4 row  justify-content-center">
+                <div class="col-3 col-md-3 col-xl-3">
+                    <label for="inputEmail4" class="form-label">Cod. Postal</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-3 col-md-3 col-xl-3">
+                    <label for="inputEmail4" class="form-label">Número</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class="col-3 col-md-3 col-xl-3">
+                    <label for="inputEmail4" class="form-label">Piso</label>
+                    <input type="text"  class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+                  <div class=" col-3 col-md-3 col-xl-3">
+                    <label for="inputEmail4" class="form-label">Dpto.</label>
+                    <input type="text" class="form-control labelregistro border-0" id="inputEmail4">
+                  </div>
+              </div>
+
+              <button type="submit" class="btnregistro btn btn-primary d-grid gap-2 col-6 mx-auto">Registrar</button>
+            </form>
+
+           
+          </div>
+          <!-- #Fin Login-->  
+                  
+        </div>
+
+      </div>
+        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+    </script>
+  </body>

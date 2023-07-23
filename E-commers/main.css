@@ -293,6 +293,7 @@ footer i {
     background-repeat: no-repeat;
 }
 
+
 #padreacerca{
     display: flex;
     align-items:center;
@@ -319,6 +320,22 @@ footer i {
     .container-nav {
         min-height: 10vh;
     }
-  }
+  /*---------------- Pagina Registro------------- */
 
+  :root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
 
+.bodyregistro {
+    font-weight: 300;
+    color: var(--light);
+}
+
+.color-registro {
+    background-color: var(--dark) !important;
+}
+.labelregistro, .btnregistro {
+    background-color: var(--dark-x);
+}

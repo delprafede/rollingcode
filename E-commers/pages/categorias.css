@@ -1,0 +1,14 @@
+.card{
+  background-color:black;
+  padding:10px ;
+  display: inline-block;
+ 
+  }
+
+body{
+   background-color:#A6672E ;
+}
+.img responsive{
+flex-direction: row;
+background-color: black;
+}

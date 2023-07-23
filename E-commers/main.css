@@ -152,7 +152,15 @@ footer i {
 /* botones de color */
 
 .bg-color-check1 {
-    background-color: #39ac31 !important;
+    background-color: #551400 !important;
+}
+
+.bg-color-check2 {
+    background-color: #fff !important;
+}
+
+.bg-color-check3 {
+    background-color: #162543 !important;
 }
 
 .img-op {

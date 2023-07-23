@@ -49,7 +49,7 @@ body {
     border-top: var(--bs-border-width) var(--bs-border-style) red !important;
 }
 
-.form-controlindex {
+  .form-controlindex {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 
@@ -282,7 +282,7 @@ footer i {
 /* paginalogin */
 
 
-body {
+.bodyindex {
     font-weight: 300;
     color: var(--light);
 }
@@ -557,13 +557,24 @@ body {
 }
 
 /*-----------Acerca Nosotros---------- */
-.bodyacercanos {
-    background-image: url(https://img.freepik.com/foto-gratis/paisaje-campo-paja-cielo-azul_181624-37705.jpg?w=996&t=st=1688942934~exp=1688943534~hmac=7452248093ddae821349d852aa20f57f0d1982952109a8a506f92f6ec89a9f32);
+.bodyacercanos{
+    /* background-image: url( https://media.gettyimages.com/id/522680020/es/foto/margaret-river.jpg?s=612x612&w=0&k=20&c=32NTNN26Cl4VbJyU-vnn_sSVc_ObJR2hUL4ur5qvEM4=); */
+      /* background-image: url(https://img.freepik.com/foto-gratis/paisaje-campo-paja-cielo-azul_181624-37705.jpg?w=996&t=st=1688942934~exp=1688943534~hmac=7452248093ddae821349d852aa20f57f0d1982952109a8a506f92f6ec89a9f32); */
+    background-image: url(https://img.freepik.com/fotos-premium/pila-paja-retorcida-queda-campo-despues-cosechar-cereal_252085-4301.jpg?size=626&ext=jpg);
+    /* background-image: url(https://media.gettyimages.com/id/638556356/es/foto/sunrise-over-vineyards-in-napa-valley-california.jpg?s=612x612&w=0&k=20&c=sPd7gJFwIzPQZ8V3aAhdJQ2ezC6piuNM9DHL7xM6Ow8=); */
+    /* background-image: url(https://img.freepik.com/vector-premium/campo-color-dorado-cielo-azul-trigo_251819-2152.jpg?w=1060); */
+    /* background-image: url(https://img.freepik.com/fotos-premium/campo-paja-pajar_252085-33316.jpg?size=626&ext=jpg) ; */
+        /* background-image: url(https://media.gettyimages.com/id/1345562834/es/foto/vineyards-in-the-champagne-region-of-france-at-sunrise-stock-photo.jpg?s=612x612&w=0&k=20&c=8pTy-ezqoUEmMMsfT2Djh3WjQRMVFZ1z95LCwOpyqxg=); */
+        /* background-image: url(https://media.gettyimages.com/id/124613472/es/foto/bodega-en-el-sur-de-%C3%A1frica.jpg?s=612x612&w=0&k=20&c=NvccdP4k3XXBW_1zDTCIU6i-0frieGRjxC8bOinssyU=); */
+        /* background-image: url( https://media.gettyimages.com/id/522680020/es/foto/margaret-river.jpg?s=612x612&w=0&k=20&c=32NTNN26Cl4VbJyU-vnn_sSVc_ObJR2hUL4ur5qvEM4=); */
+        /* background-image: url(/gettyimages-522680020-612x612.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#padreacerca {
+
+
+#padreacerca{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -622,14 +633,27 @@ footer i {
     color: var(--light);
 }
 
-.bg-dark-login {
+@media (min-width: 1400px) {
+    .container-nav {
+        min-height: 10vh;
+    }
+}
+  /*---------------- Pagina Registro------------- */
+
+  :root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
+
+.bodyregistro {
+    font-weight: 300;
+    color: var(--light);
+}
+
+.color-registro {
     background-color: var(--dark) !important;
 }
-.bg-dark-x{
+.labelregistro, .btnregistro {
     background-color: var(--dark-x);
 }
-.imglogin {
-    height: 100vb;
-}
-
-

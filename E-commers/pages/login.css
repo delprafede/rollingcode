@@ -4,14 +4,14 @@
     --light: #ffffff;
 }
 
-body {
+.bodylogin {
     font-weight: 300;
     color: var(--light);
 }
 
-.bg-dark {
+.bg-dark-login {
     background-color: var(--dark) !important;
 }
-.bg-dark-x, .btn {
+.bg-dark-x{
     background-color: var(--dark-x);
 }

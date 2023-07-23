@@ -154,18 +154,16 @@ footer a:hover {
 footer i {
     font-size: 25px;
 }
-<<<<<<< HEAD
-/* body : Color de fondo */
-=======
+
+
 /* Css Carro*/
->>>>>>> 34032c029e0a3713195bc8802f381cf95ddc5ce0
+
 .bodyCarro {
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-<<<<<<< HEAD
 
 /* RUBROS */
 
@@ -174,7 +172,9 @@ footer i {
 
 }
 
-=======
+.imgcard {
+    height: 300px;
+}
 /* Css Login*/
 :root {
     --dark: #16191c;
@@ -193,4 +193,3 @@ footer i {
 .bg-dark-x{
     background-color: var(--dark-x);
 }
->>>>>>> 34032c029e0a3713195bc8802f381cf95ddc5ce0

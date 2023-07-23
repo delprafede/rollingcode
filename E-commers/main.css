@@ -169,6 +169,9 @@ footer i {
 
 }
 
+.imgcard {
+    height: 300px;
+}
 /* Css Login*/
 :root {
     --dark: #16191c;

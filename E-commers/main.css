@@ -20,7 +20,7 @@
     font-family: var(--font-family);
 
 }
-body {
+.bodyindex {
     background-color:rgb(236, 240, 241);
 }
 
@@ -267,9 +267,10 @@ footer i {
 }
 
 .bg_404 {
-  background: url(./img/dribbble_1.gif);
-  height: 400px;
+  background: url(../E-commers/img/dribbble_1.gif);
+  height:400px;
   background-position: center;
+ 
 }
 
 .cuatrocerocuatro {
@@ -637,6 +638,16 @@ footer i {
     .container-nav {
         min-height: 10vh;
     }
+    
+}
+.bg-dark-login {
+        background-color: var(--dark) !important;
+}
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+.imglogin   {
+    height: 100vh;
 }
   /*---------------- Pagina Registro------------- */
 

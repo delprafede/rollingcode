@@ -649,6 +649,8 @@ footer i {
     height: 300px;
 }
 
+/* fin RUBROS */
+
 /* Css Login*/
 :root {
     --dark: #16191c;
@@ -732,6 +734,8 @@ footer i {
     display: inline-block;
 }
 
+/* fin PAGINA 404 */
+
 /* botones de color */
 
 .bg-color-check1 {
@@ -770,3 +774,5 @@ footer i {
     width: 100px;
     height: 100px;
 }
+
+/* fin botones de color */

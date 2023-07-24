@@ -7,14 +7,14 @@
   <!-- ***********TITULO********** -->
   <title>Alpargata Lisa</title>
   <!-- ***********FAVICOM********** -->
-  <link rel="shortcut icon" href="./img/img-logo.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/img-logo.jpg" type="image/x-icon">
 
   <!-- ***********Bootstrap********** -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
   <!-- *******CSS********** -->
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="../main.css">
 
   <!-- *******ICONOS******** -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -26,8 +26,8 @@
 </head>
 
 <body>
-  <!--#region nav-->
-  <nav class=" bg-dark d-flex justify-content-center sticky-top container-nav">
+   <!--#region nav-->
+   <nav class=" bg-dark d-flex justify-content-center sticky-top container-nav">
     <div
       class="row w-100 container container-sm container-md container-lg container-xl container-xxl align-items-center pe-1">
       <!-- *******menu-hamburguesa****** -->
@@ -46,8 +46,7 @@
       <div
         class="col-3 col-sm-5 col-md-1  col-lg-3 col-xl-3 col-xxl-2  order-md-1 d-flex justify-content-start p-1 img-logo">
 
-        <a class="text-white" href="./index.html"><img class="img-shifu rounded-circle" src="./img/imglogo01.jpg"
-            alt="logo"></a>
+        <a class="text-white aindex" href="../index.html"><img class="img-shifu rounded-circle" src="../img/imglogo01.jpg" alt="logo"></a>
       </div>
       <!-- *******menu-iconos****** -->
 
@@ -55,81 +54,39 @@
 
         <ul class="navbar-nav gap-2 gap-sm-3 gap-md-3 gap-lg-3 gap-xl-4 gap-xxl-4 d-flex flex-row justify-content-end">
           <li class="nav-item fs-4">
-            <a class="nav-link active fw-bold text-white" aria-current="page" href="./index.html"
-              data-bs-toggle="tooltip" data-bs-title="Inicio" data-bs-placement="bottom"
-              data-bs-custom-class="custom-tooltip fst-italic"><i class="bi bi-house-door"></i></a>
+            <a class=" aindex nav-link active fw-bold text-white" aria-current="page" href="../index.html" data-bs-toggle="tooltip"
+              data-bs-title="Inicio" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
+                class="bi bi-house-door"></i></a>
           </li>
           <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/login.html"
-              data-bs-toggle="tooltip" data-bs-title="Acceder" data-bs-placement="bottom"
-              data-bs-custom-class="custom-tooltip fst-italic" href="#"><i class="bi bi-person-circle"></i></a>
+            <a class="aindex nav-link text-white fw-bold" aria-current="page" href="./login.html" data-bs-toggle="tooltip"
+              data-bs-title="Acceder" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+              href="#"><i class="bi bi-person-circle"></i></a>
           </li>
           <li class="nav-item fs-4">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/contacto.html"
-              data-bs-toggle="tooltip" data-bs-title="Contacto" data-bs-placement="bottom"
-              data-bs-custom-class="custom-tooltip fst-italic" href="#"><i class="bi bi-telephone"></i></a>
+            <a class="aindex nav-link text-white fw-bold" aria-current="page" href="./contacto.html" data-bs-toggle="tooltip"
+              data-bs-title="Contacto" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+              href="#"><i class="bi bi-telephone"></i></a>
           </li>
           <li class="nav-item fs-4 nav-item-nosotros">
-            <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/accercadenosostros.html"
-              data-bs-toggle="tooltip" data-bs-title="Nosotros" data-bs-placement="bottom"
-              data-bs-custom-class="custom-tooltip fst-italic" href="#"><i class="bi bi-people-fill"></i></a>
+            <a class="aindex nav-link text-white fw-bold" aria-current="page" href="./accercadenosostros.html" data-bs-toggle="tooltip"
+              data-bs-title="Nosotros" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+              href="#"><i class="bi bi-people-fill"></i></a>
           </li>
 
-          <li class="nav-item fs-4" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-            aria-controls="offcanvasExample">
-            <a class="nav-link text-warning fw-bold" aria-current="page" data-bs-toggle="tooltip"
+          <li class="nav-item fs-4" >
+            <a class="aindex nav-link text-warning fw-bold" href="./Carrito.html" aria-current="page" data-bs-toggle="tooltip"
               data-bs-title="Ver carrito" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
                 class="bi bi-cart2">
                 <span class="position-absolute top-25 start-90 translate-middle badge rounded-pill bg-danger">
                   1
-                  <!-- <span class="visually-hidden">unread messages</span> -->
+               
                 </span>
               </i></a>
 
           </li>
         </ul>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-          aria-labelledby="offcanvasExampleLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title text-warning fs-1" id="offcanvasExampleLabel"> <a href="#">Ver Carrito</a></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div class="text-dark">
-              <img class="img-fluid" src="./img/bombachas.jfif" alt="bombachas">
-              <ul class="list-offcanvas">
-                <p> Bombachas de Gaucho Lalo ❤️</p>
-                <li>Excelente calidad</li>
-                <li>Talle 36 al 54</li>
-
-                <li>Tela grafa y poplin</li>
-
-
-                <li>🍂Lisas con guarda pampa en bolsillo</li>
-                <li>🍂Bordadas</li>
-                <li>🍂Mil rallas</li>
-
-              </ul>
-              <form>
-                <label>Cantidad
-
-                  <input type="number" min="1" max="12">
-                </label>
-              </form>
-              <p>$1200</p>
-            </div>
-            <div class="dropdown mt-3">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                Realizar
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Eliminar</a></li>
-                <li><a class="dropdown-item" href="#">Guardar</a></li>
-                <li><a class="dropdown-item" href="#">Comprar</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      
       </div>
 
 
@@ -137,21 +94,19 @@
       <div class="collapse navbar-collapse order-md-4 x" id="navbarSupportedContent">
         <ul class="navbar-nav mb-md-0 text-white">
 
-          <li class="nav-item">
-            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Promociones</i></i></a>
+         
+          <li class="nav-collapse nav-collapse-hover">
+            <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="./alpargatas.html">ALpargatas</i></a>
           </li>
-          <li class="nav-collapse fs3">
-            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 1</i></a>
+          <li class="nav-item nav-collapse-hover">
+            <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="./bombachas.html">Bombachas</i></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 2</i></a>
+          <li class="nav-item nav-collapse-hover">
+            <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="./varios.html">Varios</i></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 3</i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-collapse text-decoration-none fs-4 text-white fw-bold nav-item_texto"
-              href="./pages/accercadenosostros.html">Nosotros</i></a>
+          <li class="nav-item nav-collapse-hover">
+            <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold nav-item_texto"
+              href="./accercadenosostros.html">Nosotros</i></a>
           </li>
 
         </ul>
@@ -159,12 +114,12 @@
       <!-- *******imput-buscar****** -->
 
       <div
-        class="col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-7 d-flex order-md-2 justify-content-center align-items-center border-top">
+        class="col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-7 d-flex order-md-2 justify-content-center align-items-center border-top border-topindex">
 
         <form
           class="d-flex w-100 justify-content-center mt-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 justify-content-md-end justify-content-lg-center justify-content-xl-center"
           role="search">
-          <input class="form-control input border fst-italic" type="search" placeholder="Buscar" aria-label="Search" />
+          <input class="form-control form-controlindex input  border fst-italic" type="search" placeholder="Buscar" aria-label="Search" />
           <button type="submit" class="bg-white d-flex gap-2  text-dark border fst-italic">
             <i class="bi bi-search fs-5"></i>
             <p class="">Buscar</p>
@@ -185,13 +140,13 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/alpa0.JPG" class="d-block w-100" alt="...">
+              <img src="../img/alpa0.JPG" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="img/alpa1.JPG" class="d-block w-100" alt="...">
+              <img src="../img/alpa1.JPG" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="img/alpa2.JPG" class="d-block w-100" alt="...">
+              <img src="../img/alpa2.JPG" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -211,8 +166,7 @@
               <h3>Alpargata lisa</h3>
               <span class="text-medium">2500$</span>
               <hr>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, a repellendus porro quidem voluptatum
-                dicta.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus provident tempora consequuntur animi quaerat in!</p>
               <br>
               <label for="">Selecciona un color</label>
               <div class="pt-3">
@@ -235,6 +189,7 @@
                 <option value="44">44</option>
               </select>
               <hr>
+              <button class="btn btn-lg btn-primary">Agregar al carro</button>
             </div>
           </div>
         </div>
@@ -256,111 +211,112 @@
       </div>
       <div class="row pt-5">
         <div class="col-12 col-sm-2 text-center"><img class="img-op rounded-circle"
-            src="./img/istockphoto-1300512215-612x612.jpg" alt="img"></div>
+            src="https://media.istockphoto.com/id/1311634222/photo/portrait-of-successful-black-male-modern-day-student-holding-smartphone.jpg?s=612x612&w=0&k=20&c=vl2FeMtO91rpRUcq0reIfqAQPrQsf30JF-JAxU5baro=" alt="img"></div>
         <div class="col-12 col-sm-10">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque.</p>
         </div>
         <hr class="mt-3">
         <div class="col-12 col-sm-2 text-center"><img class="img-op rounded-circle"
-            src="./img/istockphoto-1300512215-612x612.jpg" alt="img"></div>
+            src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?s=612x612&w=0&k=20&c=8ssXDNTp1XAPan8Bg6mJRwG7EXHshFO5o0v9SIj96nY=" alt="img"></div>
         <div class="col-12 col-sm-10">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi quibusdam eos consectetur repellendus quam adipisci dolorum nulla ipsa praesentium recusandae.</p>
         </div>
         <hr class="mt-3">
         <div class="col-12 col-sm-2 text-center"><img class="img-op rounded-circle"
-            src="./img/istockphoto-1300512215-612x612.jpg" alt="img"></div>
+            src="https://www.shutterstock.com/shutterstock/photos/1655747050/display_1500/stock-photo-young-adult-profile-picture-with-red-hair-1655747050.jpg" alt="img"></div>
         <div class="col-12 col-sm-10">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repudiandae qui dolorum iste, expedita vero! Voluptates quo velit itaque illum voluptas ratione a alias harum?</p>
         </div>
       </div>
     </div>
   </div>
 
-  <!--#region footer-->
-  <Footer class="bg-dark text-white container-fluid p-2">
-    <section class="container  text-start text-md-start text-lg-start text-xl-center text-xxl-center">
-      <div class="row text-start text-md-start">
+ <!--#region footer-->
+ <Footer class="bg-dark text-white container-fluid p-2">
+  <section class="container    text-start text-md-start text-lg-start text-xl-center text-xxl-center">
+    <div class="row text-start text-md-start">
 
-        <div class=" col-12 col-md-6 col-lg-4 col-xl-4  mt-3">
+      <div class=" col-12 col-md-6 col-lg-4 col-xl-4  mt-3">
 
-          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
-          <hr class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Illum praesentium qui sed? Nisi vitae praesentium,
-            repudiandae culpa voluptas facilis impedit ut quaerat similique
-            eum sint. Commodi laudantium error soluta totam?
-          </p>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  mx-auto mt-3">
-          <h5 class="dis text-uppercase mb-4 font-weight-bold text-primary">Dejanos Ayudarte</h5>
-          <hr class="mb-4">
-          <p>
-            <a href="#" class="text-dark footer-link">Tu Cuenta</a>
-          </p>
-          <p>
-            <a href="#" class="text-dark footer-link">Tus Pedidos</a>
-          </p>
-          <p>
-            <a href="#" class="text-dark footer-link">Ayuda</a>
-          </p>
-        </div>
-
-        <div class="col-12 col-sm-6 col-md-12 col-lg-4 col-xl-4 mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
-          <hr class="mb-4">
-          <p>
-            <i class="bi bi-buildings me-3"></i> Gral.Paz 1849 - Tucumán
-          </p>
-          <p>
-            <i class="bi bi-envelope-at-fill me-3"></i><a class="text-decoration-none"
-              href="mailto:yocampoo@hotmail.com">yocampoo@hotmail.com
-            </a>
-          </p>
-          <p>
-            <i class="bi bi-telephone-inbound-fill me-3"></i><a class="text-decoration-none"
-              href="tel:+54 381156811852">+54 381156811852</a>
-          </p>
-        </div>
-
+        <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
         <hr class="mb-4">
-
-        <div class="text-center mb-2">
-          <p>
-            Copyright Todos los Derechos Reservados - Grupo Shifu
-            <a href="#">
-              <strong class="text-primary">Test</strong>
-            </a>
-          </p>
-        </div>
-
-        <div class="text-center">
-          <ul class="list-unstyled list-inline">
-
-            <li class="list-inline-item">
-              <a href="#" class="fs-2"> <i class="bi bi-facebook"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="fs-2"> <i class="bi bi-instagram"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="fs-2"> <i class="bi bi-google"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" class="fs-2"> <i class="bi bi-youtube"></i></a>
-            </li>
-
-          </ul>
-        </div>
-
-
-
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Illum praesentium qui sed? Nisi vitae praesentium,
+          repudiandae culpa voluptas facilis impedit ut quaerat similique
+          eum sint. Commodi laudantium error soluta totam?
+        </p>
       </div>
-    </section>
-  </Footer>
 
-  <!--#endregion-->
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4  mx-auto mt-3">
+        <h5 class="dis text-uppercase mb-4 font-weight-bold text-primary">Dejanos Ayudarte</h5>
+        <hr class="mb-4">
+        <p>
+          <a href="./login.html" class="text-decoration-none">Tu Cuenta</a>
+        </p>
+        <p>
+          <a href="./Carrito.html" class="text-decoration-none">Tus Pedidos</a>
+        </p>
+        <p>
+          <a href="./error404.html" class="text-decoration-none">Ayuda</a>
+        </p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-12 col-lg-4 col-xl-4 mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+        <hr class="mb-4">
+        <p>
+          <i class="bi bi-buildings me-3"></i> Gral.Paz 1849 - Tucumán
+        </p>
+        <p>
+          <i class="bi bi-envelope-at-fill me-3"></i><a class="text-decoration-none"
+            href="https://outlook.live.com/owa/">yocampoo@hotmail.com
+          </a>
+        </p>
+        <p>
+          <i class="bi bi-telephone-inbound-fill me-3"></i><a class="text-decoration-none"
+            href="tel:+54 381156811852">+54 381156811852</a>
+        </p>
+      </div>
+
+      <hr class="mb-4">
+
+      <div class="text-center mb-2">
+        <p>
+          Copyright Todos los Derechos Reservados - Grupo Shifu
+          <a href="#">
+            <strong class="text-primary">Test</strong>
+          </a>
+        </p>
+      </div>
+
+      <div class="text-center">
+        <ul class="list-unstyled list-inline">
+
+          <li class="list-inline-item">
+            <a href="#" class="fs-2"> <i class="bi bi-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="fs-2"> <i class="bi bi-instagram"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="fs-2"> <i class="bi bi-google"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="fs-2"> <i class="bi bi-youtube"></i></a>
+          </li>
+
+        </ul>
+      </div>
+
+
+
+    </div>
+  </section>
+</Footer>
+
+ <!--#endregion-->
+
 
 
   <!--#region script-->

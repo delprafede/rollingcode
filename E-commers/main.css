@@ -46,7 +46,7 @@ body {
 }
 
 .border-topindex {
-    border-top: var(--bs-border-width) var(--bs-border-style) red !important;
+    border-top: var(--bs-border-width) var(--bs-border-style) rgba(147, 163, 163, 0.678) !important;
 }
 
 .form-controlindex {
@@ -208,7 +208,7 @@ body {
 
 .texto {
   display: none;
-
+}
 
 .nav-item-nosotros {
     display: none;
@@ -260,6 +260,7 @@ footer i {
 .page_404 {
   padding: 80px 0;
   background: #fff;
+  color:#16191c
 }
 
 .page_404 img {
@@ -376,7 +377,7 @@ body {
     width: 25%;
     height: 100%;
   }
-}
+
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -18,6 +18,157 @@
 </head>
 
 <body class="bodylogin bg-dark-login">
+   <!--#region nav-->
+ <nav class=" bg-dark d-flex justify-content-center sticky-top container-nav">
+  <div
+    class="row w-100 container container-sm container-md container-lg container-xl container-xxl align-items-center pe-1">
+    <!-- *******menu-hamburguesa****** -->
+    <div class="navbar navbar-expand-lg col-2 col-sm-1 col-md-1  order-md-0 menu-hamburguesa p-0">
+
+      <button class="navbar-toggler w-100 border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+    </div>
+    <!-- *******img-logo****** -->
+
+    <div
+      class="col-3 col-sm-5 col-md-1  col-lg-3 col-xl-3 col-xxl-2  order-md-1 d-flex justify-content-start p-1 img-logo">
+
+      <a class="text-white aindex" href="./index.html"><img class="img-shifu rounded-circle" src="./img/imglogo01.jpg" alt="logo"></a>
+    </div>
+    <!-- *******menu-iconos****** -->
+
+    <div class="col-7 col-sm-6  col-md-3 col-lg-3 col-xl-3 col-xxl-3 order-md-3 d-flex justify-content-end pe-md-4">
+
+      <ul class="navbar-nav gap-2 gap-sm-3 gap-md-3 gap-lg-3 gap-xl-4 gap-xxl-4 d-flex flex-row justify-content-end">
+        <li class="nav-item fs-4">
+          <a class=" aindexnav-link active fw-bold text-white" aria-current="page" href="../index.html" data-bs-toggle="tooltip"
+            data-bs-title="Inicio" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
+              class="bi bi-house-door"></i></a>
+        </li>
+        <li class="nav-item fs-4">
+          <a class="aindex nav-link text-white fw-bold" aria-current="page" href="./login.html" data-bs-toggle="tooltip"
+            data-bs-title="Acceder" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+            href="#"><i class="bi bi-person-circle"></i></a>
+        </li>
+        <li class="nav-item fs-4">
+          <a class="aindex nav-link text-white fw-bold" aria-current="page" href="./contacto.html" data-bs-toggle="tooltip"
+            data-bs-title="Contacto" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+            href="#"><i class="bi bi-telephone"></i></a>
+        </li>
+        <li class="nav-item fs-4 nav-item-nosotros">
+          <a class="aindex nav-link text-white fw-bold" aria-current="page" href="./accercadenosostros.html" data-bs-toggle="tooltip"
+            data-bs-title="Nosotros" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"
+            href="#"><i class="bi bi-people-fill"></i></a>
+        </li>
+
+        <li class="nav-item fs-4" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <a class="aindex nav-link text-warning fw-bold" aria-current="page" data-bs-toggle="tooltip"
+            data-bs-title="Ver carrito" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip fst-italic"><i
+              class="bi bi-cart2">
+              <span class="position-absolute top-25 start-90 translate-middle badge rounded-pill bg-danger">
+                1
+                <!-- <span class="visually-hidden">unread messages</span> -->
+              </span>
+            </i></a>
+
+        </li>
+      </ul>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-warning fs-1" id="offcanvasExampleLabel"> <a href="#">Ver Carrito</a></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="text-dark">
+            <img class="img-fluid" src="./img/bombachas.jfif" alt="bombachas">
+            <ul class="list-offcanvas">
+              <p> Bombachas de Gaucho Lalo ❤️</p>
+              <li>Excelente calidad</li>
+              <li>Talle 36 al 54</li>
+
+              <li>Tela grafa y poplin</li>
+
+
+              <li>🍂Lisas con guarda pampa en bolsillo</li>
+              <li>🍂Bordadas</li>
+              <li>🍂Mil rallas</li>
+
+            </ul>
+            <form>
+              <label>Cantidad
+
+                <input type="number" min="1" max="12">
+              </label>
+            </form>
+            <p>$1200</p>
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Realizar
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="aindex dropdown-item" href="#">Eliminar</a></li>
+              <li><a class="aindex dropdown-item" href="#">Guardar</a></li>
+              <li><a class="aindex dropdown-item" href="#">Comprar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--#menu-collapse-->
+    <div class="collapse navbar-collapse order-md-4 x" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-md-0 text-white">
+
+        <li class="nav-item">
+          <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Promociones</i></i></a>
+        </li>
+        <li class="nav-collapse fs3">
+          <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 1</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 2</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold" href="#">Articulo 3</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="aindex nav-collapse text-decoration-none fs-4 text-white fw-bold nav-item_texto"
+            href="./pages/accercadenosostros.html">Nosotros</i></a>
+        </li>
+
+      </ul>
+    </div>
+    <!-- *******imput-buscar****** -->
+
+    <div
+      class="col-12 col-md-7 col-lg-6 col-xl-6 col-xxl-7 d-flex order-md-2 justify-content-center align-items-center border-top border-topindex">
+
+      <form
+        class="d-flex w-100 justify-content-center mt-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 justify-content-md-end justify-content-lg-center justify-content-xl-center"
+        role="search">
+        <input class="form-control form-controlindex input  border fst-italic" type="search" placeholder="Buscar" aria-label="Search" />
+        <button type="submit" class="bg-white d-flex gap-2  text-dark border fst-italic">
+          <i class="bi bi-search fs-5"></i>
+          <p class="">Buscar</p>
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</nav>
+<!--endregion nav-->
+
+
   <section>
     <div class="row g-0">
 
@@ -31,7 +182,7 @@
                 class="d-block w-100 img-fluid imglogin" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>El mejor estilo de Ropa de Campo</h5>
-                <a href="#">Visita nuestra Tienda</a>
+              
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="1500">
@@ -40,7 +191,7 @@
                 class="d-block w-100 img-fluid imglogin" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>El mejor estilo de Ropa de Campo</h5>
-                <a href="#">Visita nuestra Tienda</a>
+               
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="1500">
@@ -49,7 +200,7 @@
                 class="d-block w-100 img-fluid imglogin" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>El mejor estilo de Ropa de Campo</h5>
-                <a href="#">Visita nuestra Tienda</a>
+                
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="1500">
@@ -58,7 +209,7 @@
                 class="d-block w-100 img-fluid imglogin" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>El mejor estilo de Ropa de Campo</h5>
-                <a href="#">Visita nuestra Tienda</a>
+                
               </div>
             </div>
           </div>
@@ -89,7 +240,7 @@
 
         <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
 
-          <form class="mb-5">
+          <form class="mb-5" action="./error404.html">
             <div class="mb-4">
               <label for="exampleInputEmail1" class="form-label">Email</label>
               <input type="email" class="form-control bg-dark-x border-0" placeholder="Ingresa tu Email"
@@ -101,7 +252,7 @@
                 id="exampleInputPassword1">
               <a href="#" id="emailHelp" class="">¿Has olvidado la Contraseña?</a>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg mb-0">Iniciar Sesión</button>
+            <button type="submit"  class="btn btn-primary btn-lg mb-0">Iniciar Sesión</button>
           </form>
 
           <p class="text-muted mb-0">o inicia Sesión con:</p>
@@ -112,7 +263,7 @@
         </div>
         <!-- #Fin Login-->
         <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 ">
-          <p class="d-inline-block mb-0">¿Todavia no tienes una Cuenta</p> <a href="#" class="">Crea una ahora</a>
+          <p class="d-inline-block mb-0">¿Todavia no tienes una Cuenta</p> <a href="./registro-usuario.html" class="">Crea una ahora</a>
         </div>
       </div>
 

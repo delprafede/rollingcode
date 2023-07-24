@@ -669,3 +669,50 @@ footer i {
 .labelregistro, .btnregistro {
     background-color: var(--dark-x);
 }
+
+/* botones de color */
+
+.bg-color-check1 {
+    background-color: #551400 !important;
+}
+
+.bg-color-check2 {
+    background-color: #fff !important;
+}
+
+.bg-color-check3 {
+    background-color: #162543 !important;
+}
+
+.bg-color-check4 {
+    background-color: #1A5D1A !important;
+}
+
+.bg-color-check5 {
+    background-color: #FF9B9B !important;
+}
+
+.bg-color-check6 {
+    background-color: #FFDBAA !important;
+}  
+
+.bg-color-check7 {
+    background-color: #4C4B16 !important;
+}
+
+.bg-color-check8 {
+    background-color: #A8A196 !important;
+}
+
+.bg-color-check9 {
+    background-color: #482013 !important;
+}
+
+.bg-color-check10 {
+    background-color: #7b7672 !important;
+}
+
+.img-op {
+    width: 100px;
+    height: 100px;
+}
